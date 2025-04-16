@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+
+.header-container {
+    height: 12vh;
+    width: 100%;
+    background-color: #1b676b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 250px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header-container img {
+    height: 100%;
+    max-height: 100px;
+}
+
+.search-input {
+    flex: 1;
+    max-width: 700px;
+    height: 30px;
+    padding: 10px 40px 10px 45px;
+    background-image: url('imagesStyle/icons8-pesquisar.svg');
+    background-size: 25px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 1rem;
+}
+
+.search-input:focus {
+    outline: none;
+    border: 2px solid #7fcace;
+    box-shadow: 0 0 2px #eafde6;
+
+}
+
+.buttons-container {
+    display: flex;
+    gap: 10px;
+}
+
+.buttons-container input {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #eafde6;
+    height: 50px;
+    width: 50px;
+    transition: background-color 0.3s ease;
+}
+
+
+.buttons-container input:hover {
+    background-color: #c3d4bf;
+
+}
+
+.ajuda {
+    background-image: url(imagesStyle/telefone.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.favoritos {
+    background-image: url(imagesStyle/coracao.png);
+    background-size: 28px 28px;
+    background-repeat: no-repeat;
+    background-position: center 13px;
+
+
+}
+
+.sacola {
+    background-image: url(imagesStyle/bolsa-de-compras.png);
+    background-size: 33px;
+    background-repeat: no-repeat;
+    background-position: 8px center;
+}
+
+.user {
+    background-image: url(imagesStyle/perfil.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center 5px;
+    
+}
+
+.nav-container {
+    background-color: #1b676b;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    z-index: 999;
+    transition: transform 0.5s ease-in-out;
+    top:12vh;
+
+}
+
+.nav-hidden {
+    transform: translateY(-100%);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 250px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 12px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    display: inline-block;
+
+}
+
+nav ul li a:hover{
+    background-color: #13484a;
+    color: #eafde6;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}

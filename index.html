@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet shop</title>
+
+    <link rel="stylesheet" href="Assets/css/styleHeader.css">
+    <link rel="stylesheet" href="Assets/css/styleMain.css">
+    <link rel="stylesheet" href="Assets/css/styleFooter.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Assets/images/petshop_logo_vetorizada_style_color_eafde6-removebg-preview.png">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+
+            <a href="index.html">
+                <img src="Assets/images/petshop_logo_vetorizada_style_color_eafde6-removebg-preview.png" alt="Logo do petshop">
+            </a>
+
+            <input type="text" class="search-input" placeholder="Digite sua busca..">
+            <div class="buttons-container">
+                <input type="button" class="ajuda" alt="botão de ajuda">
+                <input type="button" class="favoritos " alt="botão de favoritos">
+                <input type="button" class="sacola" alt="botão de sacola">
+                <input type="button" class="user" alt="botão de usuário">
+            </div>
+        </div>
+
+        <div class="nav-container">
+            <nav>
+                <ul>
+                    <li><a href="#">Cachorro</a></li>
+                    <li><a href="#">Gato</a></li>
+                    <li><a href="#">Pássaro</a></li>
+                    <li><a href="#">Peixe</a></li>
+                    <li><a href="#">Outros pets</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <main>
+        <div class="services-wrapper">
+
+
+            <div class="services-container">
+                <a href="#">
+                    <img src="Assets/images/Vet.png" alt="serviço de veterinário">
+                </a>
+
+                <a href="#">
+                    <img src="Assets/images/Banho-e-tosa.png" alt="serviço de banho e tosa">
+                </a>
+
+                <a href="#">
+                    <img src="Assets/images/adestramento.png" alt="serviço de adestramento" class="adestramento">
+                </a>
+
+                <a href="#">
+                    <img src="Assets/images/adoção.png" alt="serviço de adoção">
+                </a>
+            </div>
+
+            
+        </div>
+        <button class="carrossel-arrow left" onclick="prevSlide()">&#10094;</button>
+        <button class="carrossel-arrow right" onclick="nextSlide()">&#10095;</button>
+
+
+        <h2>Rações:</h2>
+        <div class="racoes">
+            <div class="item-racao">
+                <a href="#">
+                    <img src="Assets/images/ração-cachorro.webp" alt="ração de Cachorro">
+                    <span class="preco">Ração para cachorro:<br>R$ 52,90</span>
+                </a>
+            </div>
+
+            <div class="item-racao">
+                <a href="#">
+                    <img src="Assets/images/ração-gato.webp" alt="ração de Gato">
+                    <span class="preco">Ração para gatos:<br>R$ 129,90</span>
+                </a>
+            </div>
+
+            <div class="item-racao">
+                <a href="#">
+                    <img src="Assets/images/ração-passaro.webp" alt="ração de pássaro">
+                    <span class="preco">Ração para pássaros:<br>R$ 13,23</span>
+                </a>
+            </div>
+
+            <div class="item-racao">
+                <a href="#">
+                    <img src="Assets/images/ração-peixe.webp" alt="ração de peixe">
+                    <span class="preco">Ração para peixes:<br>R$ 86,19</span>
+                </a>
+            </div>
+
+            <div class="item-racao">
+                <a href="#">
+                    <img src="Assets/images/ração-dragão-barbado.webp" alt="ração de dragão barbado">
+                    <span class="preco">Ração para dragões barbados:<br>R$ 78,99</span>
+                </a>
+            </div>
+        </div>
+
+        <h2>Brinquedos:</h2>
+        <div class="brinquedos">
+            <div class="item-brinquedos">
+                <a href="#">
+                    <img src="Assets/images/brinquedo de cachorro.webp" alt="brinquedo de Cachorro">
+                    <span class="preco">Brinquedo para cachorro:<br>R$ 8,00</span>
+                </a>
+                </div>
+
+                <div class="item-brinquedos">
+                    <a href="#">
+                        <img src="Assets/images/brinquedo pra gato.webp" alt="catnip pra gatos">
+                        <span class="preco">Brinquedo com catnip:<br>R$ 15,00</span>
+                    </a>
+                </div>
+
+                    <div class="item-brinquedos">
+                        <a href="#">
+                            <img src="Assets/images/brinquedo para aves.jpg" alt="brinquedo para aves">
+                            <span class="preco">Brinquedo para aves:<br>R$ 32,90</span>
+                        </a>
+                    </div>
+
+                    <div class="item-brinquedos">
+                        <a href="#">
+                            <img src="Assets/images/aquario.jpg" alt="aquario">
+                            <span class="preco">Aquário:<br>R$ 565,44</span>
+                        </a>
+                    </div>
+
+                        <div class="item-brinquedos">
+                            <a href="#">
+                                <img src="Assets/images/brinquedo para dragao barbado.jpg"
+                                    alt="brinquedo para dragão barbado">
+                                <span class="preco">Brinquedo para dragão barbado:<br>R$ 117,98</span>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+
+                
+
+    </main>
+
+<footer>
+    <div class="footer-container">
+        <p>Redes Sociais:</p>
+        <div class="social-icons">
+            <a href="#" target="_blank">
+                <img src="Assets/css/imagesStyle/icons8-facebook.svg" alt="facebook">
+            </a>
+
+            <a href="#" target="_blank">
+                <img src="Assets/css/imagesStyle/icons8-linkedin.svg" alt="linkedin">
+            </a>
+
+            <a href="#" target="_blank">
+                <img src="Assets/css/imagesStyle/icons8-pinterest.svg" alt="pinterest">
+            </a>
+
+            <a href="#" target="_blank">
+                <img src="Assets/css/imagesStyle/icons8-whatsapp.svg" alt="whatsapp">
+            </a>
+
+            <a href="#" target="_blank">
+                <img src="Assets/css/imagesStyle/icons8-youtube.svg" alt="youtube">
+            </a>
+
+            <a href="#" target="_blank">
+                <img src="Assets/css/imagesStyle/icons8-tiktok.svg" alt="tiktok">
+            </a>
+        </div>
+    </div>
+    <p>© 2025 PetShop - Todos os direitos reservados.</p>
+    <p>Coded by: <a href="https://www.linkedin.com/in/gabriel-farias-99b494328/">Gabriel Farias</a></p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
